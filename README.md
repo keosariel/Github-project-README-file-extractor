@@ -6,6 +6,8 @@ This program simply returns the markdown of the readme file of any valid github 
 Here is a quick example to using the program
 
 ```python
+from get_readme import get_readme_md
+
 url = "https://github.com/keosariel/Github-project-README-file-extractor/"
 
 # Would contain a markdown text/string if link is valid else `None`
