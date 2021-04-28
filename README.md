@@ -5,7 +5,7 @@ This program simply returns the markdown of the readme file of any valid github 
 ### Example
 Here is a quick example to using the program
 
-```
+```python
 url = "https://github.com/keosariel/Github-project-README-file-extractor/"
 
 # Would contain a markdown text/string if link is valid else `None`
